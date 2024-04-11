@@ -1,0 +1,7 @@
+include('../../../../ssconfig-service/Tiltfile')
+include('../../../../ssedge-service/Tiltfile')
+include('../../../../ssdispatcher-service/Tiltfile')
+include('../../../../ssorder-service/Tiltfile')
+include('../../../../sscatalog-service/Tiltfile')
+
+update_settings(max_parallel_updates=1)
